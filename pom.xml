@@ -2,14 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <distributionManagement>
     <repository>
-      <id>my-repo</id>
-      <name>My Repository</name>
-      <url>https://my.repo.com</url>
+      <id>local-release</id>
+      <url>file:/Users/siddhantchhatwal/local_repo/release</url>
     </repository>
     <snapshotRepository>
-      <id>my-snapshot-repo</id>
-      <name>My Snapshot Repository</name>
-      <url>https://my.snapshot.repo.com</url>
+      <id>local-snapshot</id>
+      <url>file:/Users/siddhantchhatwal/local_repo/snapshot</url>
     </snapshotRepository>
   </distributionManagement>
   <modelVersion>4.0.0</modelVersion>
