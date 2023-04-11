@@ -1,5 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <distributionManagement>
+    <repository>
+      <id>my-repo</id>
+      <name>My Repository</name>
+      <url>https://my.repo.com</url>
+    </repository>
+    <snapshotRepository>
+      <id>my-snapshot-repo</id>
+      <name>My Snapshot Repository</name>
+      <url>https://my.snapshot.repo.com</url>
+    </snapshotRepository>
+  </distributionManagement>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>myproject</artifactId>
